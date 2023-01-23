@@ -1,0 +1,97 @@
+{
+  // CURSOR_STYLE
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "blink",
+
+  // INDENT_STYLE
+    // Defining custom colors instead of default "Rainbow" for dark backgrounds.
+    // For which languages indent-rainbow should be activated (if empty it means all).
+    "indentRainbow.includedLanguages": [], // for example ["nim", "nims", "python"]
+    // Using the light mode
+    "indentRainbow.indicatorStyle": "light",
+    // we use a simple 1 pixel wide line
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    // the same colors as above but more visible
+    "indentRainbow.colors": [
+      "rgba(0,0,254,0.3)",
+      "rgba(254,255,255,0.3)",
+      "rgba(255,165,255,0.3)",
+      "rgba(179,246,256,0.3)",
+      "rgba(0,100,255,0.3)",
+      "rgba(150,30,150,0.3)",
+      "rgba(25,165,255,0.3)",
+      "rgba(205,24,125,0.3)"
+    ],
+
+    // COMMENTS_STYLE
+    "better-comments.tags": [
+      {
+        "tag": "!!",
+        "color": "#ac0636",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "tag": "TO REVIEW",
+        "color": "#2C87A3",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "tag": "??",
+        "color": "#000280",
+        "strikethrough": false,
+        "underline": true,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": true
+      },
+      {
+        "tag": "&&",
+        "color": "#FF006A",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": true
+      },
+      {
+        "tag": "//",
+        "color": "#474747",
+        "strikethrough": true,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "tag": "to do",
+        "color": "#6734ff",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "rgba(0,100,255,0.1)",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "tag": "**",
+        "color": "#00E1B1",
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "rgba(0,255,120,0.1)",
+        "bold": false,
+        "italic": true
+      }
+    ],
+
+
+    // FONT_STYLE
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+}

@@ -1,55 +1,51 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Pacifico&family=Paytone+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Paytone+One&display=swap');
+
+
+html, body {
   margin: 0;
-  padding : 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
-.search {
-  width: 100%;
-  margin-bottom: auto;
-  margin-top: auto;
-  height: 50px;
-  background-color: rgb(206, 206, 206);
-  padding: 10px;
-  border-radius: 5px;
-}
-.search-input {
-  color: white;
-  border: 0;
-  outline: 0;
-  background: none;
-  width: 0;
-  margin-top: 5px;
-  caret-color: transparent;
-  line-height: 20px;
-  transition: width 0.4s linear
-}
+h1 {
+  /* font-family: 'Pacifico', cursive; */
+  font-family: 'Paytone One', sans-serif;
 
-.search .search-input {
-  padding: 0 10px;
-  width: 100%;
+
+}
+/* Header */
+
+input:hover, input:active, input:focus, Button:hover, Button:active, Button:focus {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+Input {
   caret-color: #536bf6;
-  font-size: 19px;
-  font-weight: 300;
-  color: black;
-  transition: width 0.4s linear;
 }
-.search-icon {
+
+Button {
   height: 34px;
-width: 34px;
-float: right;
-display: flex;
-justify-content: center;
-align-items: center;
-color: white;
-background-color: #536bf6;
-font-size: 10px;
-  bottom: 30px;
-  position: relative;
-  border-radius: 5px;
+  width: 34px;
+  background-color: #536bf6 !important;
+}
+
+/* gallery */
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  cursor: pointer;
+}
+.user-img {
+  width: 10% ;
 }
